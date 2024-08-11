@@ -14,7 +14,7 @@ public:
         clearBoard();
     }
     // Ham bo tro thiet ke va quan ly su thay doi cua tro choi
-    // Ham clearBoard su dung de xoa noi dung cua bang choi bang cach gan moi o cua bang thanh dau gach ngang (ì-î). 
+    // Ham clearBoard su dung de xoa noi dung cua bang choi bang cach gan moi o cua bang thanh dau gach ngang (‚Äú-‚Äù). 
     void clearBoard() {
         for (int i = 0; i < 3; ++i) {
             for (int j = 0; j < 3; ++j) {
@@ -354,7 +354,7 @@ cin >> mark1;
             	cout << "--------------------Exit--------------------" << endl;
             	cout << "|         Exited game successfully!        |" << endl;
                 cout << "|         Thank you and see you again      |" << endl;
-                cout << "============================================" << endl;
+                cout << "--------------------------------------------" << endl;
                 return 0;
 				break;
 			}
